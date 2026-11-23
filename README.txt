@@ -1,11 +1,7 @@
-CAP BON EXPLORER
+# Cap Bon Explorer
 
-Pages :
-index.html : Accueil
-activites.html : Activités
-agenda.html : Agenda
-reservation.html : Réservation
-contact.html : Contact et FAQ
+🌍 **[Visit the website](https://talelbenkhalifa.github.io/cap-bon-explorer/)**
 
-Technologies : HTML, CSS, JavaScript, Bootstrap.
-🌍 Visit the website
+A simple website to discover activities and places in Cap Bon, Tunisia.
+
+Made with HTML, CSS, Bootstrap and JavaScript, with the help of AI.
