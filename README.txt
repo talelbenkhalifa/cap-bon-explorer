@@ -1,4 +1,4 @@
-CAP BON EXPLORER - SITE SIMPLE
+CAP BON EXPLORER
 
 Pages :
 index.html : Accueil
@@ -7,8 +7,4 @@ agenda.html : Agenda
 reservation.html : Réservation
 contact.html : Contact et FAQ
 
-Pour ouvrir :
-Double-clique sur index.html.
-
 Technologies : HTML, CSS, JavaScript, Bootstrap.
-Site de démonstration. Aucune vraie réservation n'est envoyée.
