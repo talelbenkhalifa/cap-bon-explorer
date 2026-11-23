@@ -1,6 +1,6 @@
 # Cap Bon Explorer
 
-🌍 **[Visit the website](https://talelbenkhalifa.github.io/cap-bon-explorer/)**
+**[Visit the website](https://talelbenkhalifa.github.io/cap-bon-explorer/)**
 
 A simple website to discover activities and places in Cap Bon, Tunisia.
 
