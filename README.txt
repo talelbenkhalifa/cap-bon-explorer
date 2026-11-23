@@ -8,3 +8,4 @@ reservation.html : Réservation
 contact.html : Contact et FAQ
 
 Technologies : HTML, CSS, JavaScript, Bootstrap.
+🌍 Visit the website
