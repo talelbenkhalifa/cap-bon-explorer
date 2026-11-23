@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    background: #ffffff;
+    color: #222222;
+}
+.banner {
+    background: #d8f3dc;
+}
+.banner h1 {
+    color: #146c43;
+}
+.card img {
+    height: 180px;
+    object-fit: cover;
+}
+.card {
+    margin-bottom: 5px;
+}
+.card:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+.map {
+    background: #d8f3dc;
+    padding: 35px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .banner {
+        padding: 30px !important;
+    }
+}

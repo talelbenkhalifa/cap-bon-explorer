@@ -1,0 +1,137 @@
+<html lang="fr">
+    <head>
+        <title>Réservation - Cap Bon Explorer</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    <script src="js/reservation.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Cap Bon Explorer</a>
+                <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon">
+</span></button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activites.html">Activités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Réservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container my-4">
+            <h1 class="text-center">Réservation</h1>
+            <p class="text-center">C'est une simulation, zeroe réservation réelle.</p>
+            <form class="bg-light p-3 rounded" id="form">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="nom">Nom</label>
+                        <input class="form-control" id="nom" required="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="prenom">Prénom</label>
+                        <input class="form-control" id="prenom" required="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email">E-mail</label>
+                        <input class="form-control" id="email" required="" type="email">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="telephone">Téléphone</label>
+                        <input class="form-control" id="telephone" required="">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="activite">Activité</label>
+                        <select class="form-select" id="activite" required="">
+                            <option value="">Choisir</option>
+                            <option value="20">Découverte de la médina - 20 TND</option>
+                            <option value="35">Atelier de poterie - 35 TND</option>
+                            <option value="30">Kerkouane - 30 TND</option>
+                            <option value="25">Randonnée - 25 TND</option>
+                            <option value="40">Circuit littoral - 40 TND</option>
+                            <option value="25">Peinture - 25 TND</option>
+                            <option value="15">Marché local - 15 TND</option>
+                            <option value="30">Promenade photo - 30 TND</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="date">Date</label>
+                        <input class="form-control" id="date" required="" type="date">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="pers">Participants (1 à 6)</label>
+                        <input class="form-control" id="pers" max="6" min="1" required="" type="number" value="1">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Type</label>
+                        <br>
+                        <input checked="" name="type" type="radio" value="Individuel">
+                        Individuel
+                        <input name="type" type="radio" value="Famille">
+                        Famille
+                        <input name="type" type="radio" value="Groupe">
+                        Groupe
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="com">Commentaire</label>
+                        <textarea class="form-control" id="com"></textarea>
+                    </div>
+                    <div class="col-12 mb-3"><input id="ok" type="checkbox"/>
+            J'accepte les ok</div>
+                </div>
+                <div class="border bg-white p-3">
+                    <p>Prix unitaire :
+            <span id="prix">
+              0
+            </span>
+            TND</p>
+                    <p>Sous-total :
+            <span id="sous">
+              0
+            </span>
+            TND</p>
+                    <p>Remise :
+            <span id="rem">
+              0
+            </span>
+            TND</p>
+                    <h4>Total :
+            <span id="total">
+              0
+            </span>
+            TND</h4>
+                </div>
+                <button class="btn btn-success mt-3" id="calculer" type="button">Calculer</button>
+                <button class="btn btn-primary mt-3" type="submit">Valider</button>
+                <button class="btn btn-secondary mt-3" type="reset">Réinitialiser</button>
+                <div class="mt-3" id="message"></div>
+            </form>
+        </main>
+        <footer class="text-center bg-success text-white p-3 mt-5">
+            <p>Cap Bon Explorer - 2026</p>
+            <a class="text-white" href="index.html">Accueil</a>
+            |
+            <a class="text-white" href="activites.html">Activités</a>
+            |
+            <a class="text-white" href="contact.html">Contact</a>
+        </footer>
+        
+        
+    </body>
+</html>

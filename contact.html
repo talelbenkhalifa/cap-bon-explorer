@@ -1,0 +1,129 @@
+<html lang="fr">
+    <head>
+        <title>Contact - Cap Bon Explorer</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    <script src="js/contact.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Cap Bon Explorer</a>
+                <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon">
+</span></button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activites.html">Activités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Réservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container my-4">
+            <h1 class="text-center">Contact et FAQ</h1>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <section class="bg-light p-3 rounded">
+                        <h2>Nous contacter</h2>
+                        <p>Adresse : Avenue Habib Bourguiba, Nabeul</p>
+                        <p>Téléphone : 72 000 000</p>
+                        <p>Email : contact@capbonexplorer.tn</p>
+                        <h3>Horaires</h3>
+                        <ul>
+                            <li>Lundi - Vendredi : 9h à 17h</li>
+                            <li>Samedi : 9h à 13h</li>
+                            <li>Dimanche : fermé</li>
+                        </ul>
+                        <div class="map">📍 Nabeul, Tunisie</div>
+                    </section>
+                </div>
+                <div class="col-md-6">
+                    <h2>FAQ</h2>
+                    <div class="accordion" id="faq">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" data-bs-target="#q1" data-bs-toggle="collapse">Comment réserver ?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse show" data-bs-parent="#faq" id="q1">
+                                <div class="accordion-body">Choisis une activité et remplis le formulaire.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#q2" data-bs-toggle="collapse">Le paiement est-il réel ?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faq" id="q2">
+                                <div class="accordion-body">Non, c'est un site de démonstration.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#q3" data-bs-toggle="collapse">Puis-je venir en famille ?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faq" id="q3">
+                                <div class="accordion-body">Oui, les activités peuvent se faire en famille.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-target="#q4" data-bs-toggle="collapse">Où est le Cap Bon ?</button>
+                            </h2>
+                            <div class="accordion-collapse collapse" data-bs-parent="#faq" id="q4">
+                                <div class="accordion-body">Au nord-est de la Tunisie.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="bg-light p-3 rounded mt-4">
+                <h2>Envoyer un message</h2>
+                <form id="cf">
+                    <div class="mb-2">
+                        <label for="cn">Nom</label>
+                        <input class="form-control" id="cn" required="">
+                    </div>
+                    <div class="mb-2">
+                        <label for="ce">Email</label>
+                        <input class="form-control" id="ce" required="" type="email">
+                    </div>
+                    <div class="mb-2">
+                        <label for="sujet">Sujet</label>
+                        <input class="form-control" id="sujet" required="">
+                    </div>
+                    <div class="mb-2">
+                        <label for="ct">Message</label>
+                        <textarea class="form-control" id="ct" required=""></textarea>
+                    </div>
+                    <button class="btn btn-success">Envoyer</button>
+                    <div id="msg"></div>
+                </form>
+            </section>
+        </main>
+        <footer class="text-center bg-success text-white p-3 mt-5">
+            <p>Cap Bon Explorer - 2026</p>
+            <a class="text-white" href="index.html">Accueil</a>
+            |
+            <a class="text-white" href="activites.html">Activités</a>
+            |
+            <a class="text-white" href="contact.html">Contact</a>
+        </footer>
+        
+        
+    </body>
+</html>
