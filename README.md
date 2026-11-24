@@ -4,4 +4,4 @@
 
 A simple website to discover activities and places in Cap Bon, Tunisia.
 
-Made with HTML, CSS, Bootstrap and JavaScript, with the help of AI.
+Made with HTML, CSS, Bootstrap and JavaScript.
